@@ -1,0 +1,179 @@
+.mpw-1 {
+    max-width: 540px
+}
+
+.img-p-size {
+    padding: 20px;
+}
+
+.p-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: .25rem;
+    border-top-right-radius:0px ;
+    width: 100%;
+}
+.fp-right {
+    float: right;
+}
+.fl-right {
+    text-align: right;
+}
+.p-card > div > div >img {
+    height: 7rem;
+    position: relative;
+    top: 10px
+}
+
+.p-card > div > div > .pt {
+    font-size: 20px;
+}
+
+.p-card > div > div > label {
+    font-size: 12px;
+    display: block;
+    margin: 0px;
+}
+
+.pp-12 {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.ppz-2 {
+    background: white;
+    width: 25%;
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+}
+
+.far-1 {
+    position: relative;
+    top: 4px;
+    float: left;
+}
+.fp-right {
+    position: absolute;
+    right: 0.7%;
+    padding: 0px;
+}
+
+.zzrot {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.w-99 {
+    width: 99.5%!important;
+}
+
+.fbg-1 {
+    color: white
+}
+
+.fbg-1-d {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.nav-p > h5 {
+    margin: 0;
+}
+
+.nav-p {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.mtp-1 {
+    margin-bottom: 2.5rem;
+}
+
+.il-1 {
+    position: absolute;
+    right: 1.3%;
+}
+
+.bgp-dark {
+    --bs-bg-opacity: 1;
+    background-color: #303134;
+}
+
+.bg-body-dark {
+    background: #202124;
+}
+
+.pru-1 {
+    border: solid 1px rgba(255, 255, 255, 1)
+}
+
+.fbg-1p {
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fsp-1 > svg {
+    font-size: 60px;
+    height: 100%;
+    padding: 25px 0px;
+}
+
+.fsp-1 > label {
+    font-size: 20px;
+}
+
+.tp-button {
+    background-color: #202124;
+    transition: 0.1s;
+}
+
+.tp-button:hover {
+    border: solid 3px;
+    font-weight: bold;
+    position: absolute;
+    width: 34%;
+}
+
+.tp-button:hover > label {
+    font-size: 21px;
+}
+
+.tp-button:hover > svg {
+    font-size: 61px;
+}
+
+.p-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.p-pop {
+    z-index: 3;
+    padding: 25px;
+    background-color: #303134;
+    position: fixed;
+    width: 60%;
+    /*transform: translate(-50%,-50%)!important;
+    top: 50%;*/
+    left: 50% !important;
+    top: 50% !important;
+    border-radius: 5px;
+    color: white
+}
+
+.hp-1 {
+    max-height: 80vh;
+}
